@@ -1,0 +1,126 @@
+/*  body */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(bg7.jpg);
+	color: #FFFFFF;
+}
+
+#intro, #content {
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 900px;
+}
+
+#content {
+	height: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 40px;
+	background-color: #000000;
+	filter: alpha(opacity=90); /*IE*/
+	background:rgba(0, 0, 0, 0.9);
+	/*-moz-opacity: 0.8; /*MOZ , FF*/
+	opacity: 0.9; /*CSS3, FF1.5*/
+}
+
+/*div, p, h1, h2, ul {
+	border: 1px dotted white;
+}*/
+
+/*  title and description */
+h1 {
+	text-align: right;
+	margin: 0;
+	font-size:100px;
+	font-weight: normal;
+}
+
+#dscp {
+	text-align: right;
+	font-size: 24px;
+	margin: 0;
+}
+
+/*  left part */
+#left {
+	float:left;
+	font-size: 26px;
+	text-align: right;
+}
+
+#left div h2 {
+	font-weight: normal;
+	font-size: 36px;
+	margin: 0;
+	line-height: 36px;
+}
+
+#left div p {
+	margin: 0;
+	line-height: 24px;
+}
+
+/* right part */
+#right {
+	margin-left: 20px;
+	float: left;
+	text-align: left;
+}
+
+/* left and right*/
+#left > div, #right > div { margin-top:20px; }
+
+#course, #courselist { height:100px; }
+#movie, #movielist { height:100px; }
+#mood { height: 200px; }
+
+/* decoration */
+ul { list-style-type: square; }
+ol { list-style-type: upper-roman; }
+li { margin-bottom: 3px; }
+
+#movielist {
+	font-family: Helvetica, Arial, Microsoft YaHei, sans-serif;
+}
+
+cite {
+	font-style:normal;
+}
+
+.links a {
+	font-weight:bold;
+	font-size:15px;
+	margin-right: 20px;
+	text-align:center;
+	border-radius: 1px;
+	text-decoration:none;
+	color:#000000;
+	background-color: #FFFFFF;
+	padding: 0px 5px 0px 5px;
+	font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+	filter: alpha(opacity=90); /*IE*/
+	-moz-opacity: 0.9; /*MOZ , FF*/
+	opacity: 0.9; /*CSS3, FF1.5*/
+}
+
+.links a:hover, .links a:active {
+	background-color:#373737;
+}
+
+.links { margin-left: 15px; }
+
+#love { color: #FF00B4 }
+#happytext { color: #FF00B4 }
+#sadtext { color: #00AAFF; }
+
+.moodlist {
+	height: 200px;
+	width: 250px;
+	text-align: right;
+	display: inline-block;
+	margin:0;
+}
+
+.moodlist img, .moodlist p {
+	margin: 0;
+}
